@@ -1,0 +1,12 @@
+[submodule "src/config/zsh/plugins/zsh-autocomplete"]
+	path = src/config/zsh/plugins/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete.git
+[submodule "src/config/zsh/plugins/zsh-autosuggestions"]
+	path = src/config/zsh/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "src/config/zsh/plugins/zsh-completions"]
+	path = src/config/zsh/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "src/config/zsh/plugins/zsh-syntax-highlighting"]
+	path = src/config/zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
