@@ -1,0 +1,29 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "vim.overrideCopy": false,
+  "editor.cursorBlinking": "solid",
+  "git.autofetch": true,
+  "cmake.configureOnOpen": true,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "c-cpp-flylint.flawfinder.enable": false,
+  "c-cpp-flylint.flexelint.enable": false,
+  "c-cpp-flylint.lizard.enable": false,
+  "cph.general.menuChoices": "cpp",
+  "cph.language.c.Command": "",
+  "cph.language.cpp.Command": "g++-11",
+  "c-cpp-flylint.clang.enable": false,
+  "cph.language.cpp.Args": "-Wshadow -D_GLIBCXX_DEBUG -D_GLIBCXX_DEBUG_PEDANTIC",
+  "java.completion.filteredTypes": [
+    "java.awt.List",
+    "com.sun.*"
+  ],
+  "editor.mouseWheelScrollSensitivity": 0.25,
+  "cph.general.autoShowJudge": false,
+  "cph.general.firstTime": false,
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1
+}

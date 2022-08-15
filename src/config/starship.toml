@@ -1,0 +1,8 @@
+# ~/.config/starship.toml
+
+add_newline = false
+
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+truncation_symbol = "…/"
