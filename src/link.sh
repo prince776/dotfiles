@@ -4,6 +4,8 @@ if [ -f $envFile ]; then
 fi
 ln -s "$PWD/.zshenv" $envFile
 
+curl -sS https://starship.rs/install.sh | sh
+
 configDir=~/.config
 if [ -d $configDir ]; then
     echo yes | rm -rf $configDir
