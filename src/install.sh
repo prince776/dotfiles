@@ -16,6 +16,9 @@ if [[ $isM1 == 1 ]]; then
     sudo mv homebrew /usr/local/homebrew
 fi
 
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=/usr/local/homebrew/bin:$PATH
+
 printf "Installing xcode command line utilities\n"
 xcode-select --install
 
