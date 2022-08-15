@@ -30,7 +30,11 @@ brewFormulae="boost \
     pkg-config \
     wrk"
 
-brewCask="amethyst"
+brewCask="amethyst \
+    iterm2 \
+    visual-studio-code \
+    spotify \
+    "
 
 printf "Installing homebrew stuff\n"
 brew install $brewFormulae
