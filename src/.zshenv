@@ -19,3 +19,4 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/usr/local/homebrew/bin:$PATH
 
 export PATH="/usr/local/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="$PATH:/Users/prince/.local/bin"

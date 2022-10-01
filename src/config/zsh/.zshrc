@@ -35,6 +35,7 @@ alias l='ls -CF --color=auto'
 
 # Command aliases
 alias ibrew='arch -x86_64 /usr/local/homebrew/bin/brew'
+alias cls='printf "\033c"'
 
 # Basic auto/tab complete:
 autoload -U compinit
@@ -111,3 +112,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # vim stuff
 alias nvim=/usr/local/bin/nvim
 alias vim=nvim
+
+source "$HOME/.cargo/env"
