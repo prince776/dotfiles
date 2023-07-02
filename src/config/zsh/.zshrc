@@ -110,7 +110,19 @@ export BUN_INSTALL="/Users/prince/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # vim stuff
-alias nvim=/usr/local/bin/nvim
+# alias nvim=/usr/local/bin/nvim
 alias vim=nvim
 
 source "$HOME/.cargo/env"
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:/usr/local/homebrew/Cellar/qemu/7.1.0/bin"
+
+alias qemu86=qemu-system-x86_64
+
+# CPP Stuff
+# export CC=/usr/local/homebrew/bin/gcc-12
+# export CXX=/usr/local/homebrew/bin/g++-12

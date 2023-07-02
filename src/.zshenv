@@ -15,8 +15,11 @@ export SAVEHIST=100000                   # Maximum events in history file
 # export VISUAL="nvim"
 
 # path
-export PATH=/opt/homebrew/bin:$PATH
-export PATH=/usr/local/homebrew/bin:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/usr/local/homebrew/bin:$PATH"
+
+export PATH="/usr/local/homebrew/sbin:$PATH"
+export PATH="/usr/local/homebrew/bin:$PATH"
 
 export PATH="/usr/local/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="$PATH:/Users/prince/.local/bin"
