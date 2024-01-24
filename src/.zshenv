@@ -9,6 +9,7 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 # zsh history
 export HISTSIZE=100000                   # Maximum events for internal history
 export SAVEHIST=100000                   # Maximum events in history file
+setopt INC_APPEND_HISTORY
 
 # # editors
 # export EDITOR="nvim"
