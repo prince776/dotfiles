@@ -1,3 +1,4 @@
+*prince.workplace*
 .zcompdump
 .zsh_history
 .DS_Store
@@ -6,3 +7,7 @@ QtProject/
 dlv/
 jgit/
 ngrok/
+*.log
+.semgrep/
+NuGet/
+gcloud/

@@ -113,15 +113,22 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # alias nvim=/usr/local/bin/nvim
 alias vim=nvim
 
-source "$HOME/.cargo/env"
-export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
-eval "$(goenv init -)"
+# source "$HOME/.cargo/env"
+# export GOENV_ROOT="$HOME/.goenv"
+# export PATH="$GOENV_ROOT/bin:$PATH"
+# eval "$(goenv init -)"
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOPATH/bin"
-export PATH="$PATH:/usr/local/homebrew/Cellar/qemu/7.1.0/bin"
 
+# Homebrew stuff
+export PATH="$PATH:/usr/local/homebrew/Cellar/qemu/7.1.0/bin"
+export PATH="/opt/homebrew/opt/cython/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# More aliases
 alias qemu86=qemu-system-x86_64
+alias k=kubectl
+alias reload='source $ZDOTDIR/.zshrc'
 
 # CPP Stuff
 # export CC=/usr/local/homebrew/bin/gcc-12
@@ -130,3 +137,10 @@ alias qemu86=qemu-system-x86_64
 # eval "$(pyenv init --path)"
 # eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
+
+source "$ZDOTDIR/.shell_utils.sh"
+
+workplaceZshrc="$ZDOTDIR/.zshrc.prince.workplace.sh"
+if [ -f $workplaceZshrc ]; then
+  source $workplaceZshrc
+fi

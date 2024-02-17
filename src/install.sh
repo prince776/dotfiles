@@ -29,14 +29,12 @@ brewFormulae="boost \
     libmpc \
     lua \
     meson \
-    mysql-client \
     pkg-config \
     wrk"
 
 brewCask="amethyst \
     iterm2 \
     visual-studio-code \
-    spotify \
     "
 
 printf "Installing homebrew stuff\n"
