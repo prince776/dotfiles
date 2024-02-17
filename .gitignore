@@ -1,3 +1,8 @@
 .zcompdump
 .zsh_history
 .DS_Store
+.zsh_sessions/
+QtProject/
+dlv/
+jgit/
+ngrok/

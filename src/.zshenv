@@ -7,8 +7,9 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # zsh history
-export HISTSIZE=100000                   # Maximum events for internal history
-export SAVEHIST=100000                   # Maximum events in history file
+export HISTSIZE=10000000                   # Maximum events for internal history
+export SAVEHIST=10000000                   # Maximum events in history file
+
 setopt INC_APPEND_HISTORY
 
 # # editors
@@ -24,3 +25,4 @@ export PATH="/usr/local/homebrew/bin:$PATH"
 
 export PATH="/usr/local/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="$PATH:/Users/prince/.local/bin"
+export PATH="$PATH:$HOME/.cargo/bin"

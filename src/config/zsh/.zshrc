@@ -126,3 +126,7 @@ alias qemu86=qemu-system-x86_64
 # CPP Stuff
 # export CC=/usr/local/homebrew/bin/gcc-12
 # export CXX=/usr/local/homebrew/bin/g++-12
+
+# eval "$(pyenv init --path)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
